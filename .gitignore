@@ -1,0 +1,19 @@
+# User configuration (contains sensitive IPs)
+config.lua
+
+# Downloaded zone files (large, fetched from ipdeny.com)
+Zones/*.zone
+
+# Sensitive data - event logs and parsed results
+EventLogXML/
+Logins/
+
+# Historical data files
+herredsvela.lua
+totals
+
+# Generated/temporary files
+updated-time
+*.clean
+
+.claude
